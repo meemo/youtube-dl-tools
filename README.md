@@ -11,7 +11,9 @@
  `https://youtube.com/watch?v=xxxxxxxxxxx`
  
  Usage: `downloadArchiveConversion.py [--download-archive output .txt file] [desired output file name (with .txt)]`
+ 
  Example usage:
+ 
  `downloadArchiveConversion.py ids.txt output.txt`
  
 # removedVideoFinder.py
@@ -19,6 +21,12 @@
  
  Usage:
  `deadVideoFinder.py [name of text file with urls] [output file name (include .txt)] [delay length in seconds]`
+ 
  Example usage:
  `deadVideoFinder.py ids.txt output.txt 5`
+ 
  If a delay length is not specified, it defaults to 0 seconds. 
+ 
+ `youtube_dl` module is required for script to run.
+ 
+ Be aware that youtube may block you for excessive requests, wisely choose a delay length and/or use a VPN/proxy.
